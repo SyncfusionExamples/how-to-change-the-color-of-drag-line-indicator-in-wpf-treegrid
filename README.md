@@ -126,6 +126,8 @@ The following screenshot shows the drag line indicator color changed,
 
 ![Drag line indicator color changed](RowDragDropIndicatorColorChanged.png)
 
+KB article - [How to change the color of drag line indicator in WPF TreeGrid (SfTreeGrid)?](https://www.syncfusion.com/kb/12284/how-to-change-the-color-of-drag-line-indicator-in-wpf-treegrid-sftreegrid)
+
 ## Requirements to run the demo
 Visual Studio 2015 and above versions
 
