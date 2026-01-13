@@ -1,9 +1,11 @@
-# How to change the color of drag line indicator in WPF TreeGrid (SfTreeGrid)?
+# How to Change the Color of Drag Line Indicator in WPF TreeGrid?
 
-By default, [WPF TreeGrid](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.TreeGrid.SfTreeGrid.html) (SfTreeGrid) does not provide the direct support to change the color of drag line indicator. You can change the color of drag line indicator by overriding the [TreeGridHeaderRowControl](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.TreeGrid.TreeGridHeaderRowControl.html) and [TreeGridRowControl](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.TreeGrid.TreeGridRowControl.html) Template.
+This sample illustrates how to change the color of the drag line indicator in [WPF TreeGrid](https://www.syncfusion.com/wpf-controls/treegrid) (SfDataGrid).
 
-```XML
+By default, `TreeGrid` does not provide the direct support to change the color of drag line indicator. You can change the color of drag line indicator by overriding the [TreeGridHeaderRowControl](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.TreeGrid.TreeGridHeaderRowControl.html) and [TreeGridRowControl](https://help.syncfusion.com/cr/wpf/Syncfusion.UI.Xaml.TreeGrid.TreeGridRowControl.html) Template.
 
+#### XAML
+``` xml
 <LinearGradientBrush x:Key="HeaderBackgroundBrush" 
                      StartPoint="0,0" 
                      EndPoint="1,1" >
